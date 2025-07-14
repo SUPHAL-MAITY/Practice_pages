@@ -1,11 +1,25 @@
-const YoutubeNavbar = () => {
+type OnChange={
+    onChange:()=>void;
+}
+
+
+
+
+
+const YoutubeNavbar = ({onChange}:OnChange) => {
+
+    const handleClick=()=>{
+        onChange()
+     }
+
+
   return (
     <>
       <div className="fixed top-0 left-0 z-10 bg-white w-full h-[56px] flex  justify-between px-[24px] ">
         {/* left side of navbar */}
 
         <div className="border border-red-500 w-[160px] flex items-center justify-between">
-          <i className="fa-solid fa-bars "></i>
+          <i className="fa-solid fa-bars " onClick={handleClick}></i>
           <div className=" w-[123px]   ">
             <img
               src="src/assets/YT_LOGO.png"
