@@ -35,7 +35,7 @@ const YoutubeNavbar = ({onChange}:OnChange) => {
             <div className="border border-gray-900 rounded-tl-xl rounded-bl-xl  w-7/8  h-4/5  ">
               <input
                 type="text"
-                className="w-full h-full"
+                className="w-full h-full px-4"
                 placeholder="Search"
               />
             </div>
