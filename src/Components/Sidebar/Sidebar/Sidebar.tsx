@@ -12,7 +12,7 @@ const Sidebar = ({onChange}:OnChange) => {
 
 
   return (
-    <div className="fixed top-0 left-0  z-100 bg-white h-full w-[210px] border border-red-700 flex flex-col">
+    <div className="fixed top-0 left-0  z-100 bg-white h-full w-[210px]  flex flex-col shadow-lg">
       <div className="flex justify-between items-center  h-[60px]">
         <i className="fa-solid fa-bars ml-6 fa-lg" onClick={handleClick}></i>
         <div className=" w-[123px]  mr-4">

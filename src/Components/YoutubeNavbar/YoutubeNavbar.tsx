@@ -18,7 +18,7 @@ const YoutubeNavbar = ({onChange}:OnChange) => {
       <div className="fixed top-0 left-0 z-10 bg-white w-full h-[56px] flex  justify-between px-[24px] ">
         {/* left side of navbar */}
 
-        <div className="border border-red-500 w-[160px] flex items-center justify-between">
+        <div className=" w-[160px] flex items-center justify-between">
           <i className="fa-solid fa-bars " onClick={handleClick}></i>
           <div className=" w-[123px]   ">
             <img
@@ -30,7 +30,7 @@ const YoutubeNavbar = ({onChange}:OnChange) => {
         </div>
 
         {/* middle of navbar */}
-        <div className="border border-red-500 flex  items-center w-1/2 h-full ">
+        <div className=" flex  items-center w-1/2 h-full ">
           <div className="w-7/8 h-full flex items-center">
             <div className="border border-gray-900 rounded-tl-xl rounded-bl-xl  w-7/8  h-4/5  ">
               <input
@@ -51,7 +51,7 @@ const YoutubeNavbar = ({onChange}:OnChange) => {
           </div>
         </div>
 
-        <div className="border border-red-500 w-[192px]  flex  justify-between items-center">
+        <div className=" w-[192px]  flex  justify-between items-center">
           <div className="bg-gray-200  rounded-xl flex justify-center items-center  w-[96px] h-3/4  mx-1 p-2 ">
             <i className="fa-solid fa-plus ml-2"></i>
             <p className="p-2 text-sm">Create</p>
