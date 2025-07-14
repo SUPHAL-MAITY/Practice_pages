@@ -1,4 +1,5 @@
 import MiniSidebar from "../../Components/Sidebar/MiniSidebar/MiniSidebar"
+import Tagbar from "../../Components/Tagbar/Tagbar"
 import YoutubeNavbar from "../../Components/YoutubeNavbar/YoutubeNavbar"
 
 
@@ -10,6 +11,7 @@ const YoutubeHomePage = () => {
     <div>
       <YoutubeNavbar/>
       <MiniSidebar/>
+      <Tagbar/>
       
     </div>
   )
