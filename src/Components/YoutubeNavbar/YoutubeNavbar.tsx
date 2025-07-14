@@ -7,7 +7,7 @@ const YoutubeNavbar = () => {
            
            {/* left side of navbar */}
            
-           <div className="border border-red-500 w-1/8 flex items-center justify-between">
+           <div className="border border-red-500 w-[160px] flex items-center justify-between">
               <i className="fa-solid fa-bars "></i>
               <div className=" w-[123px]   "> 
                 <img src="src/assets/YT_LOGO.png" alt="..." className="h-full w-full  " />
@@ -22,8 +22,8 @@ const YoutubeNavbar = () => {
                 
                      <input type="text" className="w-full h-full" placeholder="Search" />
                   </div>
-                  <div className="border border-gray-900 w-1/8 h-4/5 flex justify-center items-center">
-                        <i className="fa-solid fa-magnifying-glass fa-2x"></i>
+                  <div className="border border-gray-900 w-[40px] h-4/5 flex justify-center items-center">
+                        <i className="fa-solid fa-magnifying-glass fa-1x"></i>
                   </div>
 
 
@@ -39,7 +39,18 @@ const YoutubeNavbar = () => {
 
 
 
-           <div className="border border-red-500">right</div>
+           <div className="border border-red-500 w-[192px]  flex  justify-between items-center">
+              <div className="bg-gray-200  rounded-xl flex justify-center items-center  w-[96px] h-3/4  mx-1 p-2 "> 
+                  <i className="fa-solid fa-plus ml-2"></i>
+                  <p className="p-2 text-sm">Create</p>
+              </div>
+              <div className="">
+                 <i className="fa-solid fa-bell fa-2x"></i>
+              </div>
+              <div className="">
+                <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/385800/385819.2.png" className="w-[32px] h-[32px] rounded-full " alt="" />
+              </div>
+           </div>
 
        </div>
       
