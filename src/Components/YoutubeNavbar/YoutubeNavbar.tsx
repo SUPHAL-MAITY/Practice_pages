@@ -15,7 +15,7 @@ const YoutubeNavbar = ({onChange}:OnChange) => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 z-10 bg-white w-full h-[56px] flex  justify-between px-[24px] ">
+      <div className="fixed top-0 left-0 z-10 bg-white w-full  h-[60px]   flex  justify-between px-[24px] ">
         {/* left side of navbar */}
 
         <div className=" w-[160px] flex items-center justify-between">
