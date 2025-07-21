@@ -22,7 +22,7 @@ const YoutubeNavbar = ({onChange}:OnChange) => {
           <i className="fa-solid fa-bars " onClick={handleClick}></i>
           <div className=" w-[123px]   ">
             <img
-              src="src/assets/YT_LOGO.png"
+              src="/YT_LOGO.png"
               alt="..."
               className="h-full w-full  "
             />

@@ -36,7 +36,7 @@ const YoutubeHomePage = () => {
             
       
       {isOpen && <Sidebar onChange={handleSideBar} /> }     
-      <h1 className="mt-36 ml-36"> {width} </h1>
+      
        
 
       
