@@ -17,7 +17,7 @@ const Sidebar = ({onChange}:OnChange) => {
         <i className="fa-solid fa-bars ml-6 fa-lg" onClick={handleClick}></i>
         <div className=" w-[123px]  mr-4">
           <img
-            src="src/assets/YT_LOGO.png"
+            src="/YT_LOGO.png"
             alt="..."
             className="h-full w-full  "
           />
@@ -32,7 +32,7 @@ const Sidebar = ({onChange}:OnChange) => {
 
       <div className="flex justify-between items-center  h-[40px]">
         <img
-          src="src/assets/shorts_logo.png"
+          src="/shorts_logo.png"
           className="w-[24px] h-[24px] ml-6"
           alt=""
         />
